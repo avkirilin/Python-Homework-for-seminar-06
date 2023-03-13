@@ -18,5 +18,5 @@ print(f"Ищем значения в промежутке: {min_num} - {max_num}
 new_list = []
 for i in range(len(list)):
     if min_num <= list[i] <= max_num:
-        new_list.append(i + 1)
-print(f"Номера элементов, лежащих в заданном промежутке: {new_list}")
+        new_list.append(i)
+print(f"Индекс элемента, лежащего в заданном промежутке: {new_list}")
